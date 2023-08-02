@@ -9,9 +9,20 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <header>
-        <h1>LOGO</h1>
-        <button>Entrar</button>
+    <header class="header__container">
+        <h1 class="header__logo">LOGO</h1>
+        <button class="header__button">Entrar</button>
     </header>
+
+    <dialog class="modal__controller">
+        <form class="modal__form">
+            <input type="text" class="form__input" placeholder="Nome do Produto">
+            <input type="text" class="form__input" placeholder="Categoria">
+            <input type="text" class="form__input" placeholder="Link da imagem do produto">
+            <input type="text" class="form__input" placeholder="Lista de componentes">
+            <span>* por favor  separe os componentes por ',' ou ';'</span>
+            <button class="form__button">Cadastrar</button>
+        </form>
+    </dialog>
 </body>
 </html>
