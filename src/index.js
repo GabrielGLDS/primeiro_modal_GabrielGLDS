@@ -6,6 +6,7 @@ function handleModal(){
         modalController.showModal()
     })
 }
+
 function closeModal(){
     const modalController = document.querySelector(".modal__controller")
     const closeButton = document.querySelector(".modal__close")
@@ -20,7 +21,7 @@ function closeModalBackdrop(){
     const modalController = document.querySelector(".modal__controller")
     modalController.addEventListener("click", function(event){
         // console.log(event.target)
-
+        
         if(event.target.classList.contains('modal__controller')=== true){
             modalController.close()
         }
