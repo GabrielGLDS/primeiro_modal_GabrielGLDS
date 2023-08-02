@@ -57,13 +57,16 @@ button{
 }
 
 .modal__controller{
-    margin: 4.700rem auto;
-    width: 80%;
+    margin: 6rem auto;
+    width: 60%;
     height: 500px;
     border-radius: 0px 20px 20px 20px;
     border: 2px solid #00ff40ac;
 
     padding: 0;
+}
+.modal__controller::backdrop{
+    backdrop-filter: blur(3px);
 }
 
 .modal__container{
