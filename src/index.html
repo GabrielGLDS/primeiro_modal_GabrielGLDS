@@ -7,6 +7,7 @@
     <title>Primeiro Modal</title>
 
     <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer ></script>
 </head>
 <body>
     <header class="header__container">
@@ -14,15 +15,22 @@
         <button class="header__button">Entrar</button>
     </header>
 
+    <section class="section__container">
+        <h1>ola brasil</h1>
+        <p>Mundo bonito não  é mesmo</p>
+    </section>
+
     <dialog class="modal__controller">
-        <form class="modal__form">
-            <input type="text" class="form__input" placeholder="Nome do Produto">
-            <input type="text" class="form__input" placeholder="Categoria">
-            <input type="text" class="form__input" placeholder="Link da imagem do produto">
-            <input type="text" class="form__input" placeholder="Lista de componentes">
-            <span>* por favor  separe os componentes por ',' ou ';'</span>
-            <button class="form__button">Cadastrar</button>
-        </form>
+        <div class="modal__container">
+            <form class="modal__form">
+                <input type="text" class="form__input" placeholder="Nome do Produto">
+                <input type="text" class="form__input" placeholder="Categoria">
+                <input type="text" class="form__input" placeholder="Link da imagem do produto">
+                <input type="text" class="form__input" placeholder="Lista de componentes">
+                <span>* por favor  separe os componentes por ',' ou ';'</span>
+                <button class="form__button">Cadastrar</button>
+            </form>
+        </div>
     </dialog>
 </body>
 </html>
